@@ -11,6 +11,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("\nA Sequência Fibonacci fica: ");
 	printf("%d, %d, ", 0, numero_ant);
+	
 	for (contador = 1; contador <= n-1; contador++) {
 		numero_ant = numero_dps;
 		numero_dps = numero;
